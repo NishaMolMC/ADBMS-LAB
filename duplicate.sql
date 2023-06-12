@@ -1,0 +1,15 @@
+create database studd;
+use studd;
+create table student (id integer,name varchar(20),address varchar(20),department varchar(5),mathematics integer,physics integer,computerscience integer,total_mark integer);
+insert into student values (1,'nisha','malappuram','MCA',100,100,100,300);
+insert into student values (2,'sufail','kozhikode','MCA',99,67,100,300);
+insert into student values (3,'shameer','kozhikode','MCA',99,67,100,300);
+insert into student values (4,'muhsina','korea','EC',99,67,100,300);
+insert into student values (5,'mariya','thanur','CIVIL',99,67,99,250);
+insert into student values (6,'aksh','kozhikode','AG',99,78,100,234);
+insert into student values (7,'swthi','thanur','MECH',99,88,100,300);
+insert into student values (8,'manu','ernklm','EEE',23,67,33,200);
+insert into student values (9,'silu','kssry','CS',99,55,100,300);
+insert into student values (10,'jimin','korea','MBA',99,67,100,300);
+select*from student;
+SELECT DISTINCT department FROM student;
